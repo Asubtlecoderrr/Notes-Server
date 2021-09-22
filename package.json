@@ -1,0 +1,35 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "14.17.5"
+  },
+  
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.7",
+    "react-router-dom": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asubtlecoderrr/REACT-NOTES-APPLICATION.git"
+  },
+  "author": "vidhi doshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asubtlecoderrr/REACT-NOTES-APPLICATION/issues"
+  },
+  "homepage": "https://github.com/Asubtlecoderrr/REACT-NOTES-APPLICATION#readme"
+}
